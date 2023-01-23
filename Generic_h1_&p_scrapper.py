@@ -11,7 +11,7 @@ import logging
 logging.basicConfig(filename='logging.txt', level=logging.ERROR)
 
 # Start with the initial URL
-base_url = 'https://wikitionary254.com/category/business//page/'
+base_url = 'https://example.com/page/'
 
 # Open the file containing the headers
 with open('headers.json') as f:
